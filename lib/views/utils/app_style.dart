@@ -8,10 +8,10 @@ abstract class AppStyle {
   );
 
   static const TextStyle styleMediam16 = TextStyle(
-    fontSize: 16,
-    fontFamily: 'Montserrat',
-    fontWeight: FontWeight.w500,
-  );
+      fontSize: 16,
+      fontFamily: 'Montserrat',
+      fontWeight: FontWeight.w500,
+      color: Color(0xff064061));
 
   static const TextStyle styleSemiBold16 = TextStyle(
     fontSize: 16,
@@ -20,10 +20,10 @@ abstract class AppStyle {
   );
 
   static const TextStyle styleSemiBold20 = TextStyle(
-    fontSize: 20,
-    fontFamily: 'Montserrat',
-    fontWeight: FontWeight.w600,
-  );
+      fontSize: 20,
+      fontFamily: 'Montserrat',
+      fontWeight: FontWeight.w600,
+      color: Color(0xff064061));
 
   static const TextStyle styleRegular12 = TextStyle(
     fontSize: 12,

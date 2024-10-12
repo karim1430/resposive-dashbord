@@ -9,6 +9,7 @@ class ResponsiveDashbordView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xffF5F5F5),
       body: AdaptiveLayout(
           layoutMobile: (context) => SizedBox(),
           layoutTablet: (context) => SizedBox(),
