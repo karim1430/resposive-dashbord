@@ -1,58 +1,58 @@
 import 'package:flutter/material.dart';
 
 abstract class AppStyle {
-  TextStyle styleRegular16 = const TextStyle(
+  static const TextStyle styleRegular16 = TextStyle(
     fontSize: 16,
     fontFamily: 'Montserrat',
     fontWeight: FontWeight.w400,
   );
 
-  TextStyle styleMediam16 = const TextStyle(
+  static const TextStyle styleMediam16 = TextStyle(
     fontSize: 16,
     fontFamily: 'Montserrat',
     fontWeight: FontWeight.w500,
   );
 
-  TextStyle styleSemiBold16 = const TextStyle(
+  static const TextStyle styleSemiBold16 = TextStyle(
     fontSize: 16,
     fontFamily: 'Montserrat',
     fontWeight: FontWeight.w600,
   );
 
-  TextStyle styleSemiBold20 = const TextStyle(
+  static const TextStyle styleSemiBold20 = TextStyle(
     fontSize: 20,
     fontFamily: 'Montserrat',
     fontWeight: FontWeight.w600,
   );
 
-  TextStyle styleRegular12 = const TextStyle(
+  static const TextStyle styleRegular12 = TextStyle(
     fontSize: 12,
     fontFamily: 'Montserrat',
     fontWeight: FontWeight.w400,
   );
-  TextStyle styleSemiBold24 = const TextStyle(
+  static const TextStyle styleSemiBold24 = TextStyle(
     fontSize: 24,
     fontFamily: 'Montserrat',
     fontWeight: FontWeight.w600,
   );
-  TextStyle styleRegular14 = const TextStyle(
+  static const TextStyle styleRegular14 = TextStyle(
     fontSize: 14,
     fontFamily: 'Montserrat',
     fontWeight: FontWeight.w400,
   );
-  TextStyle styleSemiBold18 = const TextStyle(
+  static const TextStyle styleSemiBold18 = TextStyle(
     fontSize: 18,
     fontFamily: 'Montserrat',
     fontWeight: FontWeight.w600,
   );
 
-  TextStyle styleBold16 = const TextStyle(
+  static const TextStyle styleBold16 = TextStyle(
     fontSize: 16,
     fontFamily: 'Montserrat',
     fontWeight: FontWeight.w700,
   );
 
-  TextStyle styleMediam20 = const TextStyle(
+  static const TextStyle styleMediam20 = TextStyle(
     fontSize: 20,
     fontFamily: 'Montserrat',
     fontWeight: FontWeight.w500,
