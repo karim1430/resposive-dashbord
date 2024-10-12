@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:responsive_dashbord/models/list_tile_item_model.dart';
 import 'package:responsive_dashbord/views/utils/app_images.dart';
@@ -33,11 +35,12 @@ class _ListViewItemState extends State<ListViewItem> {
             onTap: () {
               setState(() {
                 currentindex = index;
+                log(currentindex.toString());
               });
             },
             child: ListTileItem(
               itme: items[index],
-              active: currentindex == index,
+              isActive: currentindex == index,
             ),
           );
         });
