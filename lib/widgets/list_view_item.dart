@@ -26,9 +26,7 @@ class _ListViewItemState extends State<ListViewItem> {
 
   @override
   Widget build(BuildContext context) {
-    return ListView.builder(
-        physics: const NeverScrollableScrollPhysics(),
-        shrinkWrap: true,
+    return SliverList.builder(
         itemCount: items.length,
         itemBuilder: (context, index) {
           return GestureDetector(
