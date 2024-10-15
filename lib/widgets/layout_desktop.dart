@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:responsive_dashbord/widgets/all_expenses.dart';
 
 import 'package:responsive_dashbord/widgets/custom_drawer.dart';
+import 'package:responsive_dashbord/widgets/quick_invoice.dart';
 
 class LayoutDesktop extends StatelessWidget {
   const LayoutDesktop({super.key});
@@ -14,7 +15,10 @@ class LayoutDesktop extends StatelessWidget {
         SizedBox(
           width: 32,
         ),
-        Expanded(flex: 2, child: AllExpenses())
+        Expanded(
+          flex: 2,
+          child: AllExpenses(),
+        )
       ],
     );
   }

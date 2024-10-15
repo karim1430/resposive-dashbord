@@ -7,15 +7,15 @@ class HeaderAllExpenses extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(20),
+    return const Padding(
+      padding: EdgeInsets.all(8),
       child: Row(
         children: [
-          const Text(
+          Text(
             'All Expenses',
             style: AppStyle.styleSemiBold20,
           ),
-          const Expanded(child: SizedBox()),
+          Expanded(child: SizedBox()),
           RangeOption()
         ],
       ),
