@@ -1,8 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
+import 'package:responsive_dashbord/constant.dart';
+import 'package:responsive_dashbord/views/utils/app_images.dart';
+import 'package:responsive_dashbord/views/utils/app_style.dart';
 import 'package:responsive_dashbord/widgets/all_expenses.dart';
+import 'package:responsive_dashbord/widgets/all_expenses_and_quick_invoic_section2.dart';
 
 import 'package:responsive_dashbord/widgets/custom_drawer.dart';
+import 'package:responsive_dashbord/widgets/dots_indecator.dart';
+import 'package:responsive_dashbord/widgets/my_card_page_view.dart';
 import 'package:responsive_dashbord/widgets/quick_invoice.dart';
+import 'package:responsive_dashbord/widgets/section_my_Card.dart';
 
 class LayoutDesktop extends StatelessWidget {
   const LayoutDesktop({super.key});
@@ -17,8 +25,10 @@ class LayoutDesktop extends StatelessWidget {
         ),
         Expanded(
           flex: 2,
-          child: AllExpenses(),
-        )
+          child: AllExpensesAndQuickInvoiceSection2(),
+        ),
+        // Expanded(child: MyCardPageView())
+        Expanded(child: SectionMyCard())
       ],
     );
   }

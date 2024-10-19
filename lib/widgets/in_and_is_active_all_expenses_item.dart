@@ -79,32 +79,24 @@ class ActiveAllExpensesItem extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              AllExpensesItemHeader(
-                allExpensesItemModel: itemss,
-              ),
-              const SizedBox(height: 8),
-              Text(
-                itemss.title,
-                style:
-                    const TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
-              ),
-              const SizedBox(height: 8),
-              Text(
-                itemss.date,
-                style: const TextStyle(fontSize: 14),
-              ),
-              const SizedBox(height: 16),
-              Text(
-                itemss.price,
-                style: const TextStyle(
-                    fontSize: 24,
-                    fontWeight: FontWeight.w600,
-                    color: Colors.blue),
-              ),
-            ],
+          AllExpensesItemHeader(
+            allExpensesItemModel: itemss,
+          ),
+          const SizedBox(height: 8),
+          Text(
+            itemss.title,
+            style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
+          ),
+          const SizedBox(height: 8),
+          Text(
+            itemss.date,
+            style: const TextStyle(fontSize: 14),
+          ),
+          const SizedBox(height: 16),
+          Text(
+            itemss.price,
+            style: const TextStyle(
+                fontSize: 24, fontWeight: FontWeight.w600, color: Colors.blue),
           )
         ],
       ),

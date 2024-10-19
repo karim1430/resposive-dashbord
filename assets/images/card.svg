@@ -29,10 +29,6 @@
 <path d="M-82.0999 -29.22C-193.943 -15.9504 -369.293 10.9038 -280.086 95.6757C-166.564 203.554 110.849 175.293 -12.3592 258.557" stroke="white" stroke-opacity="0.14"/>
 </g>
 <defs>
-<filter id="filter0_f_1_296" x="-65.9161" y="-296" width="781.623" height="657" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_1_296"/>
-</filter>
+
 </defs>
 </svg>
