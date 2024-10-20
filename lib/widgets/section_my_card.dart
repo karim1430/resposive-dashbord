@@ -26,14 +26,14 @@ class _SectionMyCardState extends State<SectionMyCard> {
     });
 
     // Initialize the timer to change the page every 2 seconds
-    _timer = Timer.periodic(const Duration(seconds: 2), (Timer timer) {
+    _timer = Timer.periodic(const Duration(seconds: 4), (Timer timer) {
       if (currentIndex < 2) {
         // Assuming there are 3 pages (index 0, 1, 2)
         currentIndex++;
       } else {
         currentIndex = 0; // Go back to the first page
       }
-      
+
       pageController.animateToPage(
         currentIndex,
         duration: const Duration(milliseconds: 1000),

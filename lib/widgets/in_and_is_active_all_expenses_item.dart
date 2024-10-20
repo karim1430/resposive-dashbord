@@ -85,18 +85,18 @@ class ActiveAllExpensesItem extends StatelessWidget {
           const SizedBox(height: 8),
           Text(
             itemss.title,
-            style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
+            style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
           ),
           const SizedBox(height: 8),
           Text(
             itemss.date,
-            style: const TextStyle(fontSize: 14),
+            style: const TextStyle(fontSize: 10),
           ),
           const SizedBox(height: 16),
           Text(
             itemss.price,
             style: const TextStyle(
-                fontSize: 24, fontWeight: FontWeight.w600, color: Colors.blue),
+                fontSize: 20, fontWeight: FontWeight.w600, color: Colors.blue),
           )
         ],
       ),
